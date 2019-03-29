@@ -15,11 +15,6 @@ import time
 import tensorflow as tf
 import numpy as np
 
-import build_model
-import load_data
-import vectorize_data
-import explore_data
-
 FLAGS = None
 
 

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="classy-text",
-    version="0.0.22,
+    version="0.0.4",
     author="Matthew Edwards",
     author_email="matt.edwards@newcastle.ac.uk",
     description="Text classification",
