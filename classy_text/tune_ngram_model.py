@@ -12,6 +12,9 @@ from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 from matplotlib import cm
 
+import classy_text.load_data as load_data
+import classy_text.train_ngram_model as train_ngram_model
+
 FLAGS = None
 
 

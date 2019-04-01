@@ -8,7 +8,12 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import classy_text.batch_train_sequence_model as batch_train_sequence_model
+import classy_text.load_data as load_data
 import pytest
+import classy_text.train_fine_tuned_sequence_model as train_fine_tuned_sequence_model
+import classy_text.train_ngram_model as train_ngram_model
+import classy_text.train_sequence_model as train_sequence_model
 
 
 def test_train_ngram_model():

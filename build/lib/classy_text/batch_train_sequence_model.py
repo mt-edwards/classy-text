@@ -18,6 +18,12 @@ import time
 import tensorflow as tf
 import numpy as np
 
+import classy_text.build_model as build_model
+import classy_text.load_data as load_data
+import classy_text.vectorize_data as vectorize_data
+import classy_text.explore_data as explore_data
+
+
 FLAGS = None
 
 # Limit on the number of features. We use the top 20K features.
